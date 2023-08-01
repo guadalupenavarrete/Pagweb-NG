@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/ultima1.jpg" class="menu-icono" alt="">
+
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="#inicio">Inicio</a></li>
+                    <li> <a href="#Nosotros">Nosotros</a></li>
+                    <li> <a href="#productos">Productos Destacados</a></li>
+                    <li> <a href="#contacto">Contacto</a></li>
+                    <li> <a href="#Galeria">Galeria</a></li>
+                </ul>
+            </nav>
+
+
+<!--en esta parte esta la linta y parte del carrito-->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/cart (2).png" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <h2 id="inicio"></h2>
+        <div class="header-content container">
+            <div class="header-txt">
+                <span></span>
+                <h1>Repuestos y Accesorios de autos</h1>
+                <p>Una empresa argentina dedicada, desde hace más de 25 años, a la comercialización en el mercado local,
+                    importación y Exportación de autopartes y accesorios para el automóvil.</p>
+
+                   <p> Como distribuidora de más de 300 firmas de primera línea a nivel nacional e internacional, brindamos
+                    la gama más completa de productos, facilitando el contacto entre las mejores fábricas de autopartes
+                    de nuestro país y los distribuidores del exterior.</p>
+
+                  <p>  Con una participación constante en ferias internacionales y eventos del Sector, estamos a la
+                    vanguardia en cuanto a innovación de productos y servicios.
+                </p>
+            
+            </div>
+            <div class="header-img">
+                <img src="/pagwebautos/img/foto inicio.jpg" alt="">
+            </div>
+        </div>
+
+
+    </header>
+    <!--finaliza el header-->
+   
+    <h2 id="productos"></h2>
+    <section class="oferts container">
+        <div class="ofert-1">
+            <img src="img/ofertas1.jpg" alt="">
+            <h3>Ofertas</h3>
+            <p>Premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/ofertas2.jpg" alt="">
+            <h3>Ofertas</h3>
+            <p>Premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/204-wet-tire-shine-250cc1-8d5c732b00e7e11c7516849546232463-640-0.webp" alt="">
+            <h3>Ofertas</h3>
+            <p>Premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/213_tire_gel_1000_ok1-46ec71f240894a93f016847666124633-640-0.webp" alt="">
+            <h3>Ofertas</h3>
+            <p>Premium</p>
+        </div>
+
+
+    </section>
+    <!--inicia y finaliza el main -->
+    <main class="products container" id="lista-1">
+        <h2>Productos destacados</h2>
+        <div class="product-content">
+            <div class="product">
+                <img src="img/cricket-carrito-hidraulico-de-2-ton-goodyear.jpg" alt="">
+                <div class="product-txt">
+                    <h3>cricket</h3>
+                    <p class="precio">
+                        $ 39.779,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/parlantes-para-auto-philco-spr-2630-6-1-2-pulgadas-64-w.jpg" alt="">
+                <div class="product-txt">
+                    <h3>parlantes</h3>
+                    <p class="precio">$ 23.676,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/bolsa-organizadora-para-autos-neoprene.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bolsa organizadora</h3>
+                    <p class="precio">
+                        $ 2.799,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/manometro-daza-dztirebas-para-medir-presion-neumaticos.jpg" alt="">
+                <div class="product-txt">
+                    <h3>manometro</h3>
+                    <p class="precio">$ 2.380,00
+                    </p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/set-de-herramientas-good-year-de-21-piezas.jpg" alt="">
+                <div class="product-txt">
+                    <h3>set de harramientas</h3>
+                    <p class="precio">$ 9.949,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/soporte-de-auto-para-celulares-tgw-iph096a.jpg" alt="">
+                <div class="product-txt">
+                    <h3>soporte celular</h3>
+                    <p class="precio">$ 5.700,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/equipo-para-criquet-tensor-3tn-gj-50mmx9mts-eslingar.jpg" alt="">
+                <div class="product-txt">
+                    <h3>cricket tensor</h3>
+                    <p class="precio">$ 20.359,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/mini-compresor-de-aire-goodyear-gy901.jpg" alt="">
+                <div class="product-txt">
+                    <h3>mini compresor</h3>
+                    <p class="precio">
+                        $ 10.399,00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="service">
+
+        <div class="service-1">
+            <img class="store" src="img/ultima1.jpg" alt="">
+        </div>
+        <div class="service-2">
+            <img class="store" src="img/ultimo2.jpg" alt="">
+        </div>
+
+        <div class="service-3">
+            <img class="store" src="img/ultima3.jpg" alt="">
+        </div>
+    </section>
+
+
+
+
+    <hr>
+
+
+    <h2 id="Galeria"></h2>
+    <div class="container px-4 text-center">
+        <div class="row gx-5">
+            <div class="col-2">
+                <div class="p-3">
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4">cantidad</label>
+                        <select class="form-select" id="cantidad">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4">accesorios</label>
+                        <select class="form-select" id="accesorios">
+                            <option>Aerosoles</option>
+                            <option>Protección y Detallado</option>
+                            <option>Spray</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="card()">ver</button>
+                </div>
+            </div>
+
+            <div class="col-10">
+                <div class="p-3">
+                    <div class="container px-4 text-center" id="contenedor">
+                        <div class="row gx-5" id="div1">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    
+<!--gutter para que queden las dos img bien -->
+<div class="container px-4 text-center">
+    <div class="row gx-5">
+      <div class="col">
+       <div class="p-3"> <img src="img/reseñas.jpg" class="card-img-top" alt="..."></div>
+      </div>
+      <div class="col">
+        <div class="p-3"> <img src="img/reseñas2.jpg" class="card-img-top" alt="..."></div>
+      </div>
+    </div>
+  </div>
+
+    <h2 id="Nosotros"></h2>
+
+    <div class="card mb-3" style="max-width: 5400px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+               
+            </div>
+            <h2 id="contacto"></h2>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h3 class="card-title">Acerca de Nosotros</h3>
+              
+                    <h5 class="card-text">Brindamos seguridad para que puedas viajar con confianza con todos los
+                        resouestos para tu auto. Estamos involucrados desde hace varios años, aportando experiencia
+                        en las mejores marcas.</h5>
+                      
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col">
+        <div class="p-3">
+            <div class="card mb-3" style="max-width: 5400px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/s-logoRecurso-2.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+
+                            <h3>Horarios
+
+                                Lun. Vier: 10:00 -16:00
+                                <hr>
+                                Sáb: 10:00 -12:30</h3>
+                                <hr>
+                            <h3 class="card-title">Contáctenos</h3>
+                            <button type="button" class="btn btn-success">2996438634</button>
+                            <h4 class="card-text">
+                                Tambien puede ser a través de su correo electrónico.
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<section class="contact container">
+    <form>
+        <input type="email" placeholder="Correo">
+        <input type="submit" class="btn-3">
+    </form>
+</section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="/pagina-dinamica/DOM1.js"></script>
+</body>
+
+
+</html>
+
+
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+https://www.tiendak78.com.ar/?gclid=EAIaIQobChMI78GFkr26gAMVPE9IAB23OQp4EAMYAiAAEgLvrPD_BwE
